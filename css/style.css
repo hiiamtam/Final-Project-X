@@ -303,7 +303,7 @@ header {
     font-weight: 400;
     text-transform: lowercase;
     color: red;
-    transform: translateY(27%);
+    transform: translate(3px,30%);
 }
 
 .customers h2 {
@@ -426,6 +426,14 @@ header {
     padding: 20px;
     text-align: center;
     background: #feffa6;
+}
+
+.logout {
+    position: relative;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 2px;
 }
 
 @media (max-width : 1440px) {
