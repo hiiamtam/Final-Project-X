@@ -65,6 +65,11 @@ header {
 
 .logo h1 {
     color: #f1f1f1;
+    transition: .25s linear;
+}
+
+.logo h1:hover {
+    transform: scale(1.1);
 }
 
 .navbar {
